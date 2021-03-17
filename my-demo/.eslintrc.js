@@ -5,11 +5,7 @@ module.exports = {
       'plugin:@typescript-eslint/recommended',
       'plugin:jest/recommended',
       'prettier',
-      'prettier/react',
-      'prettier/@typescript-eslint',
-      'plugin:prettier/recommended',
-      "react-app",
-      "react-app/jest"
+      'plugin:prettier/recommended',     
     ],
     plugins: ['react', '@typescript-eslint', 'jest'],
     env: {
@@ -39,6 +35,20 @@ module.exports = {
           endOfLine: 'auto',
         },
       ],
+      '@typescript-eslint/no-unsafe-assignment': 0,
+      '@typescript-eslint/no-explicit-any': 0,
+      '@typescript-eslint/no-unused-expressions': 0,
+      '@typescript-eslint/no-unused-vars': 1,
+      '@typescript-eslint/no-unsafe-member-access': 0,
+      '@typescript-eslint/no-unsafe-call': 0,
+      '@typescript-eslint/no-unsafe-return': 0,
+      '@typescript-eslint/restrict-plus-operands': 0,
+      '@typescript-eslint/restrict-template-expressions': 0,
+      '@typescript-eslint/explicit-module-boundary-types': 0,
+      'react-hooks/exhaustive-deps': 0,
+      'react/prop-types': 0,
+      'react/display-name': 0,
+      'react/no-unknown-property': 0,
     },
   };
   
