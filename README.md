@@ -1,2 +1,3 @@
-# React-FirstProject
-This is my first react project while I learn this library.
+# My studying React.js project
+1. My demo - It is a demo for testing function, component,... 
+
