@@ -6,4 +6,5 @@ dist/
 coverage
 
 # others
-.eslintrc.js
+.eslintrc.cjs
+webpack.config.js
