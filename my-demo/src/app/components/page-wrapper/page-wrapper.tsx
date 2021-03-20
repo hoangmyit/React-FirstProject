@@ -8,7 +8,7 @@ interface IProps {
 }
 
 function PageWrapper({ children }: IProps) {
-  return <div className="page-wrapper">{children}</div>;
+  return <div className="container">{children}</div>;
 }
 
 export default PageWrapper;

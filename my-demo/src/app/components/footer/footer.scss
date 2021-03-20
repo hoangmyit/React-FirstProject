@@ -1,15 +1,84 @@
 @import 'styles/_variable.scss';
 
-.footer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: $deep-blue;
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #0a4275;
+  color: #fbfbfb;
 }
 
-.icon-container, .signature-container {
+.icon-container {
     display: flex;
-    width: 380px;
     justify-content: space-evenly;
+    max-width: 416px;
+    padding-top: 10px !important;
+}
+.signature-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  .footer-content-item {
+    flex: 50%;
+    padding: 20px 20px;
+  }
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
+  .information-content {
+    margin-left: 40px;
+  }
+  .information-icon {
+    display: flex;
+    align-items: center;
+    height: 48px;
+  }
+  .information-content {
+      width: 340px;
+  }
+}
+
+.contact-container {
+   > div {
+    padding: 5px;
+    height: 48px;
+  }
+  .quote-item {
+    height: 80px;
+    padding-left: 20px;
+    border-left: 4px solid;
+    font-style: italic;
+    max-width: 416px
+  }
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .footer-content {
+        padding: 5px;
+    }
+}
+
+.icon-container {
+
+}
+
+@media (max-width: 800px) {
+  .footer-content {
+    flex-direction: column;
+  }
 }
