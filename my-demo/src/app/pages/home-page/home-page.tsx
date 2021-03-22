@@ -1,7 +1,8 @@
 import * as React from 'react';
+import './home-page.scss';
 
-function HomePage() {
-  return <div className="App">This is body</div>;
-}
+const HomePage = () => {
+  return <div className="any-class">This is body</div>;
+};
 
 export default HomePage;

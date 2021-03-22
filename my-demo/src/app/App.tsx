@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <PageWrapper>
+      <PageWrapper extraClass={['main-container']}>
         <HomePage />
       </PageWrapper>
       <Footer />
